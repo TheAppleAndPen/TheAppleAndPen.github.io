@@ -78,7 +78,7 @@ section {
   
 
 #testimonials {
-    padding-bottom: 5rem;
+    margin-bottom: 5rem;
 }
 .testimonials .testimonials-carousel, .testimonials .testimonials-slider {
     overflow: hidden;
