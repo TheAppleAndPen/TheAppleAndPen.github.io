@@ -158,7 +158,7 @@ section {
     background-color: #67b0d1;
 }
 
-#publishers a {
+#publishers > a > div{
     height: 30vh;
 }
 
