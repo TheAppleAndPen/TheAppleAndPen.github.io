@@ -158,6 +158,10 @@ section {
     background-color: #67b0d1;
 }
 
+#publishers a {
+    height: 30vh;
+}
+
 footer {
     border-top: 1px solid rgba(var(--bs-dark-rgb));
 }
