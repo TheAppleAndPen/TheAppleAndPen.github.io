@@ -160,11 +160,15 @@ section {
 
 #publishers > a > div{
     height: 30vh;
+    font-size: 75%;
 }
 @media (min-width: 768px) {
     #publishers > a > div{
         height: 20vh;
     }
+}
+#publishers img {
+    height: 100px;
 }
 
 footer {
