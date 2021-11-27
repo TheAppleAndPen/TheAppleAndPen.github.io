@@ -159,7 +159,12 @@ section {
 }
 
 #publishers > a > div{
-    height: 30vh;
+    height: 20vh;
+}
+@media (min-width: 768px) {
+    #publishers > a > div{
+        height: 30vh;
+    }
 }
 
 footer {
