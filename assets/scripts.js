@@ -1,4 +1,11 @@
 $(document).ready(function(){
+    
+    var typed = new Typed('.element', {
+    strings: ["First sentence.", "Second sentence."],
+    backSpeed: 40,
+    typeSpeed: 40,
+    loop: true,
+    });]
 
     $(".owl-carousel").owlCarousel({
         loop: true,
