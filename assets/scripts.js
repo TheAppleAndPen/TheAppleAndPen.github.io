@@ -16,7 +16,6 @@ $(document).ready(function(){
             }
         }
     });
-  });
   
   new Swiper('.testimonials-slider', {
     speed: 600,
