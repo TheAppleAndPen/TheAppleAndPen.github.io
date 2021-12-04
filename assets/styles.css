@@ -33,6 +33,10 @@ section {
     padding: 5rem 2rem 5rem 2rem !important;
 }
 
+#announcement {
+    background: #ffffff url("./images/announcementBg.jpg") center no-repeat;
+}
+
 #aboutMe {
     background: #ffffff url("./images/aboutMeImg.jpg") center no-repeat;
     background-size: cover;
