@@ -22,6 +22,9 @@ header {
     background-attachment: fixed;
     background-size: cover;
 }
+nav a.navbar-brand img {
+    height: 40px;
+}
 #headerHero {
     width: 75%;
 }
@@ -35,6 +38,7 @@ section {
 
 #announcement {
     background: #ffffff url("./images/announcementBg.jpg") center no-repeat;
+    height: 50vh;
 }
 
 #aboutMe {
