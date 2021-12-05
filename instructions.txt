@@ -1,0 +1,59 @@
+ADDING A NEW WORK
+1. Go to index.html and search for "ADD NEW WORK ABOVE THIS LINE"
+2. Paste the following code above the search result, after putting the data. Also remove the "{}":
+{from next line:}
+<div class="px-2 position-relative">
+            <a href="./works/{ENTER NAME OF WORK}.html">
+              <img src="assets/images/{ENTER NAME OF COVER IMAGE}.jpg" alt="works" class="rounded-3">
+              <div class="overlay"></div>
+              <div class="p-3 m-2 d-flex justify-content-between align-items-center position-absolute bg-dark text-light rounded-3">
+                <p>{ENTER WORK DESCRIPTION}</p>
+              </div>
+            </a>
+          </div>
+          
+{to the line above}
+3. Open "works" folder. Copy the "sampleWork.html" file, paste it in the works folder, and open it.
+4. On line 26 of sampleWork.html, enter name of cover image of work in designated field.
+5. On line 31 of sampleWork.html, enter name of work in designated field.
+6. On line 32-35 of sampleWork.html, enter description work in designated field. Use h3 an p only
+7. On line 36 of sampleWork.html, enter link to work in designated field.
+8. Paste the cover image of work in "assets/images/works" folder
+
+
+
+
+ADDING A NEW NEWS
+1. Go to index.html and search for "ADD NEW NEWS ABOVE THIS LINE"
+2. Paste the following code above the search result, after putting the data. Also remove the "{}":
+{from next line:}
+<ol class="p-1"><a href="./news/{ENTER NEWS TITLE}.html">{ENTER NEWS TITLE}</a></ol>
+            
+{to the line above}
+3. Open "news" folder. Copy the "sampleNews.html" file, paste it in the news folder, and open it.
+5. On line 22 of sampleNews.html, enter news title in designated field.
+6. On line 26 of sampleNews.html, enter news body in designated field. Use h3 an p only
+
+
+
+
+
+ADDING A NEW TESTIMONIAL
+1. Go to index.html and search for "ADD NEW TESTIMONIAL ABOVE THIS LINE"
+2. Paste the following code above the search result, after putting the data. Also remove the "{}":
+{from next line:}
+<div class="swiper-slide">
+                <div class="testimonial-item">
+                  <p class="bg-light text-dark">
+                    <i class="bx bxs-quote-alt-left quote-icon-left"></i>
+                    {WRITE TESTIMONIAL HERE}
+                    <i class="bx bxs-quote-alt-right quote-icon-right"></i>
+                  </p>
+                  <h3 class="text-light">{ENTER NAME HERE}</h3>
+                </div>
+              </div><!-- End testimonial item -->
+							
+{to the line above}
+3. Open "news" folder. Copy the "sampleNews.html" file, paste it in the news folder, and open it.
+5. On line 22 of sampleNews.html, enter news title in designated field.
+6. On line 26 of sampleNews.html, enter news body in designated field. Use h3 an p only
